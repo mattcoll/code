@@ -8,7 +8,7 @@ development:
   database: ???_development
   pool: 5
   username: deploy
-  password: katalyst
+  password:
 
 test:
   adapter: postgresql
@@ -18,7 +18,7 @@ test:
   database: ???_test
   pool: 5
   username: deploy
-  password: katalyst
+  password:
 
 production:
   adapter: postgresql
@@ -28,7 +28,7 @@ production:
   database: ???_development
   pool: 5
   username: deploy
-  password: katalyst
+  password:
 
 
 OR
@@ -41,7 +41,7 @@ default: &default
   database: ???_development
   pool: 5
   username: deploy
-  password: katalyst
+  password: 
 
 development:
   <<: *default
