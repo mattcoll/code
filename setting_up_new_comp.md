@@ -8,7 +8,6 @@ Terminal:
 - mysql
 - postgres
 - node + npm (node manager)
--
 
 Programs:
 - atom - settings and install command line tools

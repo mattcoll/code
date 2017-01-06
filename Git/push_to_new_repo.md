@@ -2,7 +2,7 @@ PUSH AN EXISTING PROJECT TO NEW REPO
 
 setting up new repository and adding existing project
 
-~ git init (intiates git)
+~ git init (initiates git)
 
 ~ git add .
 
