@@ -1,0 +1,10 @@
+CREATE SUPERUSER MYSQL
+
+creating a superuser with all privileges.
+
+$ createuser -P -s -e {username}
+
+_______________________________________________________________
+
+for more info goto:
+https://www.postgresql.org/docs/9.2/static/app-createuser.html

@@ -1,0 +1,7 @@
+CREATE SUPERUSER MYSQL
+
+creating a superuser with all privileges.
+
+mysql> CREATE USER 'deploy'@'localhost' IDENTIFIED BY 'password';
+
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'monty'@'localhost' WITH GRANT OPTION;
