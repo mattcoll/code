@@ -1,0 +1,16 @@
+
+RUBY ERROR MESSAGE
+
+this message occurs when trying to gem install bundler.
+
+~ ERROR:  While executing gem ... (Gem::FilePermissionError)
+  You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+
+Solution:
+I installed ruby (rbenv) locally.
+
+~ rbenv local 2.2.2
+
+You can also install globally.
+
+~ rbenv global 2.2.2
