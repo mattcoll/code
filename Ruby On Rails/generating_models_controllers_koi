@@ -1,0 +1,31 @@
+GENERATING MODELS AND CONTROLLERS
+_________________________________________________
+
+KOI
+
+this will generate a model through koi
+
+~ rails generate koi:admin_controller {model name} title:string description:text image_uid:string
+
+this will generate a controller through koi
+
+~ rails generate koi:controller {controller name}
+
+
+BILL'S NOTES
+
+~ rails generate koi:admin_controller Blog title:string description:text image_uid:string
+
+That'll generate the admin side of things for you, as well as the model  and the database table. (You should now be able to find the Blog model in your project.)
+
+To generate some front-end views/controller, you can also do this:
+
+~ rails generate koi:controller Blog
+
+<you can skip the name:type attributes here if the model already exists, but you're welcome to include them>
+
+If you're doing a contact form type thing, you'll probably want to use the mailer generator:
+
+~ rails generate koi:mailer ContactForm name:string email:string query:text needs_reply:boolean
+
+That'll create a backend, a front-end, as well as a mailer to email your admin or whoever you specify.

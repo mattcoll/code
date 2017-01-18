@@ -1,0 +1,22 @@
+DESTROYING MODELS AND CONTROLLERS
+_________________________________________________
+
+if you have migrations past the model creation you will need to work around somehow.
+
+KOI MODELS ---------------------------------
+
+~ rails destroy koi:admin_controller {model name}
+
+NORMAL MODELS ------------------------------
+
+this will rollback the last migration the model created
+
+~ bundle exec rake db:rollback
+
+~ rails destroy model {model name}
+
+NORMAL CONTROLLERS -------------------------
+
+this will destroy controller.
+
+~ rails destroy controller {controller name}
