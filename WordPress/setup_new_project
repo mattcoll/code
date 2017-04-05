@@ -1,0 +1,26 @@
+SETTING UP A NEW PROJECT
+_____________________________________________
+
+Create a new directory and make sure you are in it.
+
+~ wp core download
+
+Make sure the database exists already, if not create one.
+This sets up a wp-config.php file.
+
+~ wp core config --dbname={db name}_development --dbuser={root} --dbpass={root}
+
+Next, we use wp core install command to install WordPress. This commands the following parameters:
+--url               The website address url.
+--title             The website title, e.g. My Blog.
+--admin_user        The admin username. It should be all in lowercase, e.g. admin.
+--admin_password    This is used to login back end
+--admin_email       Contact form things could be sent here.
+The below installs everything on the database. After you run the below check the database.
+
+~ wp core install --url=http://localhost:8888/project name/ --title={website title} --admin_user={admin} --admin_password={password} --admin_email={info@example.com}
+                  
+                  --url=http://wordpress.dev:8888
+
+
+** Don't forget to change wp-config.php file from localhost > 127.0.0.1
