@@ -3,9 +3,9 @@ PUSHING A NEW BRANCH TO GITHUB OR BITBUCKET
 
 make sure you are in the project directory.
 
-~ git checkout -b {branch} (creates branch locally)
+~ git checkout -b {branch} origin/       (creates branch locally)
 
-~ git add .
+~ git add .     git add src/*
 
 ~ git commit -m ""
 

@@ -6,9 +6,11 @@ Create a new directory and make sure you are in it.
 ~ wp core download
 
 Make sure the database exists already, if not create one.
-This sets up a wp-config.php file.
 
+
+This sets up a wp-config.php file. Skip this step if you manually edited config file
 ~ wp core config --dbname={db name}_development --dbuser={root} --dbpass={root}
+
 
 Next, we use wp core install command to install WordPress. This commands the following parameters:
 --url               The website address url.
@@ -19,7 +21,7 @@ Next, we use wp core install command to install WordPress. This commands the fol
 The below installs everything on the database. After you run the below check the database.
 
 ~ wp core install --url=http://localhost:8888/project name/ --title={website title} --admin_user={admin} --admin_password={password} --admin_email={info@example.com}
-                  
+
                   --url=http://wordpress.dev:8888
 
 

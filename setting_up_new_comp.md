@@ -14,3 +14,6 @@ Programs:
 - iterm2
 - alfred
 - spectacle
+
+MacOS:
+- XCode
